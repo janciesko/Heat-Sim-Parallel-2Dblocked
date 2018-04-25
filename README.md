@@ -1,4 +1,4 @@
-# Heat
+# Heat Sim - Parallel 2D blocked
 
 ## Introduction
 Heat simulates the diffusion of heat in two dimensions. In each time step, a parallel, 2D blocked  Gauss-Seidel iterative solver is used to approximate a solution of the Poisson equation. The contininous problem is discretized with finite differences.
@@ -37,7 +37,7 @@ The application includes diffrerent versions which can compiled to different bin
      parameters in 'scripts/run-tests.sh'.
 
 
-OmpSs (OmpSs-2) is availible for download at www.pm.bsc.es.) 
+OmpSs (OmpSs-2) is availible for download at www.pm.bsc.es. 
 Please not that the interoperability library is not availible yet.
 
 
